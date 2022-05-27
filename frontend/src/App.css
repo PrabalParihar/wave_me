@@ -1,0 +1,44 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+ 
+ font-style: italic;
+ font-weight: bold;
+ font-variant: small-caps;
+ color: #006;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+  color: #039;
+  background-color: #FCEBB6;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
